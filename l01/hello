@@ -1,0 +1,3 @@
+#!D:\CodeRelated\Software\NodeJs\node.exe
+
+console.log("Hello World");
