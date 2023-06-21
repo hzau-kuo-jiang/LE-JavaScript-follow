@@ -7,6 +7,14 @@ function urlify(string) {
 	return string.toLowerCase().split(/\s+/).join('-');
 }
 
+// urlifiedform -> https://example.com/<urlifiedform>.
+function completeFunctionalUrls(elements) {
+	return elements.map(element => `https://example.com/${urlify(element)}`);
+}
+
+console.log(completeFunctionalUrls(states));
+
+
 // urls: Imperative version
 function imperativeUrls(elements) {
 	let urls = [];
