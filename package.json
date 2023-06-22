@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "kuo-jiang": "^0.1.0"
+    "browserify": "^17.0.0",
+    "kuo-jiang": "^0.1.1"
   }
 }
