@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "browserify": "^17.0.0",
-    "kuo-jiang": "^0.1.1"
+    "kuo-jiang": "^0.1.2"
   }
 }
