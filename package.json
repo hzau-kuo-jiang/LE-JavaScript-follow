@@ -11,6 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "browserify": "^17.0.0",
-    "kuo-jiang": "^0.1.2"
+    "fs": "^0.0.1-security",
+    "jsdom": "^22.1.0",
+    "kuo-jiang": "^0.1.2",
+    "request": "^2.88.2",
+    "requst": "^0.0.1-security"
   }
 }

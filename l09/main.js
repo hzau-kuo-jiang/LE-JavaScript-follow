@@ -2,6 +2,7 @@ let Phrase = require('kuo-jiang');
 
 function palindromeTester(event) {
 	event.preventDefault();
+	console.log(event);
 	
 	let phrase = new Phrase(event.target.phrase.value);
 	let palindromeResult = document.querySelector("#palindromeResult");
